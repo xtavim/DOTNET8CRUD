@@ -1,0 +1,11 @@
+@CRUD-DotNet8_HostAddress = https://localhost:7030
+@CRUD_DotNet8_HostAddress = http://localhost:5087
+
+GET {{CRUD_DotNet8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{CRUD-DotNet8_HostAddress}}/api/user
+
+###
